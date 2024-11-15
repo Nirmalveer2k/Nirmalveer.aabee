@@ -1,0 +1,144 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #ffffff;
+    --background: #0a0a0a;
+    --primary: #00323d;
+    --secondary: #333333;
+    --accent: #b7c4c8;
+  }
+}
+*/
+
+:root {
+  --text: #0a0a0a;
+  --background: #ffffff;
+  --background-transparent: #ffffff88;
+  --background-dark: #0a0a0a;
+  --primary: #00323d;
+  --primary-transparent: #00323d88;
+  --secondary: #fcfcfc;
+  --accent: #647b82;
+}
+
+:root {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+body {
+  overflow-x: hidden;
+  color: var(--text);
+  background: var(--background-dark);
+}
+::selection {
+  background: var(--primary);
+  color: var(--secondary);
+}
+:focus {
+  outline: none;
+}
+:hover {
+  cursor: default;
+}
+
+main {
+  background-color: var(--background);
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+input:hover,
+textarea:hover {
+  cursor: text;
+}
+
+@font-face {
+  font-family: saol;
+  src: url("/fonts/SaolDisplay.ttf");
+  font-display: swap;
+}
+
+dt {
+  text-align: right;
+  grid-column-start: 1;
+  padding-right: 10px;
+}
+
+dd {
+  padding-left: 10px;
+  text-align: left;
+  grid-column-start: 2;
+  column-span: 2;
+}
+
+#smooth-content {
+  --scroll-content-height: var(--scroll-content-height, 5000px);
+  width: 100%;
+  height: var(--scroll-content-height);
+}
+
+.scroller {
+  max-width: 80vw;
+}
+
+.scroller__inner {
+  padding-block: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.scroller[data-animated="true"] {
+  overflow: hidden;
+  -webkit-mask: linear-gradient(
+    90deg,
+    transparent,
+    white 10%,
+    white 90%,
+    transparent
+  );
+  mask: linear-gradient(90deg, transparent, white 10%, white 90%, transparent);
+}
+
+.scroller[data-animated="true"] .scroller__inner {
+  width: max-content;
+  flex-wrap: nowrap;
+  animation: scroll var(--_animation-duration, 40s)
+    var(--_animation-direction, forwards) linear infinite;
+}
+
+.scroller[data-direction="right"] {
+  --_animation-direction: reverse;
+}
+
+.scroller[data-direction="left"] {
+  --_animation-direction: forwards;
+}
+
+.scroller[data-speed="fast"] {
+  --_animation-duration: 20s;
+}
+
+.scroller[data-speed="slow"] {
+  --_animation-duration: 120s;
+}
+
+@keyframes scroll {
+  to {
+    transform: translate(calc(-50% - 0.5rem));
+  }
+}

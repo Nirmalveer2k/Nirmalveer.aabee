@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Israel",
+    "desc": "Discover the ancient wonders and modern marvels of Israel, a land steeped in history and vibrant culture.",
+    "image": "/images/destinations/Isreal.webp",
+    "link": "israel"
+  },
+  {
+    "title": "ABC Islands",
+    "desc": "Explore the Caribbean's hidden treasures on the ABC Islands, where sun-kissed sands and azure waters await.",
+    "image": "/images/destinations/ABC_Islands.webp",
+    "link": "abc islands"
+  }
+]

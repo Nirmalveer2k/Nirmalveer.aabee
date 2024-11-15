@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Cortina d'Ampezzo, Italy",
+    "desc": "Nestled in the heart of the Dolomites, Cortina d'Ampezzo beckons with its alpine allure and timeless Italian charm.",
+    "image": "/images/destinations/Cortina_Italy.webp",
+    "link": "cortina"
+  },
+  {
+    "title": "Corsica",
+    "desc": "Corsica, where rugged cliffs meet pristine beaches, is an island paradise filled with Mediterranean mystique.",
+    "image": "/images/destinations/Corsica.jpg",
+    "link": "corsica"
+  },
+  {
+    "title": "Malta",
+    "desc": "Malta, a Mediterranean gem, unfolds a captivating tapestry of history, culture, and crystal-clear waters.",
+    "image": "/images/destinations/Malta.jpg",
+    "link": "malta"
+  },
+  {
+    "title": "Porto, Portugal",
+    "desc": "Porto, where centuries-old traditions meet contemporary luxury, invites you to savor the best of Portuguese culture.",
+    "image": "/images/destinations/Portugal.webp",
+    "link": "porto"
+  },
+  {
+    "title": "Almaty, Kazakhstan",
+    "desc": "Almaty, a cultural crossroads in Central Asia, welcomes you to explore its unique blend of tradition and opulence.",
+    "image": "/images/destinations/Almaty.webp",
+    "link": "almaty"
+  },
+  {
+    "title": "Norway - Northern Lights",
+    "desc": "Experience the ethereal beauty of Norway's Northern Lights, a celestial spectacle that paints the Arctic skies.",
+    "image": "/images/destinations/norway/Norway.jpg",
+    "link": "norway"
+  },
+  {
+    "title": "Turkey",
+    "desc": "Turkey, where the East meets the West, invites you to embark on a journey through its rich heritage and stunning landscapes.",
+    "image": "/images/destinations/Turkey.jpg",
+    "link": "turkey"
+  },
+  {
+    "title": "Seychelles",
+    "desc": "Seychelles, a tropical paradise adorned with palm-fringed beaches and coral reefs, welcomes you to its tranquil shores.",
+    "image": "/images/destinations/Seychelles.webp",
+    "link": "seychelles"
+  },
+  {
+    "title": "Masai Mara, Kenya",
+    "desc": "Safari in style amid the boundless wilderness of Masai Mara, Kenya's iconic wildlife sanctuary.",
+    "image": "/images/destinations/Kenya.jpg",
+    "link": "kenya"
+  },
+  {
+    "title": "Megeve, France",
+    "desc": "Megeve, a charming alpine village nestled in the French Alps, invites you to experience the best of mountain living.",
+    "image": "/images/destinations/megeve.jpg",
+    "link": "kenya"
+  },
+  {
+    "title": "Lapland, Finland",
+    "desc": "Lapland, a magical winter wonderland, invites you to experience the enchantment of the Arctic Circle.",
+    "image": "/images/destinations/lapland.jpg",
+    "link": "kenya"
+  },
+  {
+    "title": "Kitzbuhel, Austria",
+    "desc": "Kitzbuhel, a charming medieval town in the Austrian Alps, invites you to experience the best of mountain living.",
+    "image": "/images/destinations/kitzbuhel.avif",
+    "link": "kenya"
+  }
+]

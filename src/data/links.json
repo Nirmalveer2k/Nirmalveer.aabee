@@ -1,0 +1,10 @@
+{
+  "home": "/",
+  "about": "/about",
+  "history": "/history",
+  "contact": "/contact",
+  "journeys": "/journeys",
+  "destinations": "/destinations",
+  "privacy": "/privacy-policy",
+  "terms": "/terms-and-conditions"
+}
