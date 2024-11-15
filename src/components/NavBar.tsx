@@ -59,7 +59,7 @@ const NavBar = () => {
         <div className="flex gap-5">
         <a rel="prefetch" href="https://www.inbound.aabee.in" className="group relative">
             Our Story
-            {path === "https://www.inbound.aabee.in" && (
+            {path === "https://www.nirmalveer.com" && (
               <span className="absolute left-0 top-full h-[1px] w-full bg-white" />
             )}
             <span className="absolute left-0 top-full h-[1px] w-0 bg-white group-hover:animate-highlight"></span>
